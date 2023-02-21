@@ -1,0 +1,44 @@
+/******************************************* color  *******************************************/
+:root {
+    --color-white: #ffffff;
+    --color-green: #20ad96;
+    --color-purple: #3f3a64;
+    --color-grey: #e9e6e3;
+    --color-grey-dark: #dedbd9;
+    --color-grey-light: #f5f7fa;
+    --color-grey-yellow: #f8f8f8;
+    --color-baige: #f5f1ed;
+    --color-dark-light: #696969;
+    --color-purple-light: #8c89a2;
+}
+
+/*************************************** debug ***************************************/
+[class^="col"] {
+    border: 2px dashed red;
+}
+
+section {
+    border: 2px dashed green;
+}
+
+/* [class^=""] {
+    border: 2px dashed black;
+} */
+
+/********************************** background general  **********************************/
+
+.bg-personal-grey {
+    background-color: var(--color-grey-light);
+}
+
+.bg-personal-grey-dark {
+    background-color: var(--color-grey-dark);
+}
+
+
+
+
+/***************************************** main  *****************************************/
+
+
+/******************* section complete your dream  *******************/
