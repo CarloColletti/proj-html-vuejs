@@ -21,18 +21,26 @@ section {
     border: 2px dashed green;
 }
 
-/* [class^=""] {
+[class^="row"] {
     border: 2px dashed black;
-} */
+}
 
 /********************************** background and colors general  **********************************/
 
 .bg-personal-grey {
-    background-color: var(--color-grey-light);
+    background-color: var(--color-grey);
 }
 
 .bg-personal-grey-dark {
     background-color: var(--color-grey-dark);
+}
+
+.bg-personal-grey-light {
+    background-color: var(--color-grey-light);
+}
+
+.bg-personal-grey-yellow {
+    background-color: var(--color-grey-yellow);
 }
 
 .p-color-green {
@@ -49,3 +57,5 @@ section {
 
 
 /******************* section build your dream today  *******************/
+
+/********** section cosnstruct a stunning career perspective **********/
