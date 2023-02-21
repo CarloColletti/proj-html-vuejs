@@ -3,17 +3,17 @@
     --color-white: #ffffff;
     --color-green: #20ad96;
     --color-purple: #3f3a64;
-    --color-grey: #e9e6e3;
-    --color-grey-dark: #dedbd9;
     --color-grey-light: #f5f7fa;
     --color-grey-yellow: #f8f8f8;
     --color-baige: #f5f1ed;
     --color-dark-light: #696969;
     --color-purple-light: #8c89a2;
+    --color-grey-dark: #dedbd9;
+    --color-grey: #e9e6e3;
 }
 
 /*************************************** debug ***************************************/
-[class^="col"] {
+/* [class^="col"] {
     border: 2px dashed red;
 }
 
@@ -23,7 +23,7 @@ section {
 
 [class^="row"] {
     border: 2px dashed black;
-}
+} */
 
 /********************************** background and colors general  **********************************/
 
@@ -60,7 +60,17 @@ section {
 /********** section cosnstruct a stunning career perspective **********/
 
 /********************* section Lastest Featured Courses *********************/
+/* badge prezzo */
+.badge-cost {
+    background-color: var(--color-green);
+    color: var(--color-grey-light);
+    font-size: 1.3rem;
+    padding: 10px 10px;
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+}
 
+/* immagine nome  e cognome dell'insegnante */
 .img-profile {
     width: 40px;
     height: 40px;
