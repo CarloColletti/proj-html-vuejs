@@ -25,7 +25,7 @@ section {
     border: 2px dashed black;
 } */
 
-/********************************** background general  **********************************/
+/********************************** background and colors general  **********************************/
 
 .bg-personal-grey {
     background-color: var(--color-grey-light);
@@ -35,6 +35,10 @@ section {
     background-color: var(--color-grey-dark);
 }
 
+.p-color-green {
+    color: var(--color-green);
+}
+
 
 
 
@@ -42,3 +46,6 @@ section {
 
 
 /******************* section complete your dream  *******************/
+
+
+/******************* section build your dream today  *******************/
