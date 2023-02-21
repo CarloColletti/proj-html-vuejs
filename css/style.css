@@ -13,7 +13,7 @@
 }
 
 /*************************************** debug ***************************************/
-/* [class^="col"] {
+[class^="col"] {
     border: 2px dashed red;
 }
 
@@ -23,7 +23,7 @@ section {
 
 [class^="row"] {
     border: 2px dashed black;
-} */
+}
 
 /********************************** background and colors general  **********************************/
 
@@ -65,7 +65,10 @@ section {
     background-color: var(--color-green);
     color: var(--color-grey-light);
     font-size: 1.3rem;
-    padding: 10px 10px;
+    width: 85px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border-top-right-radius: 10%;
     border-bottom-left-radius: 10%;
 }
