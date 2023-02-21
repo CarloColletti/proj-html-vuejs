@@ -12,14 +12,23 @@
     --color-grey: #e9e6e3;
 }
 
+/******************************************* reset  *******************************************/
+ul li {
+    list-style: none;
+}
+
 /*************************************** debug ***************************************/
 [class^="col"] {
     border: 2px dashed red;
 }
 
-section {
-    border: 2px dashed green;
+ul li i {
+    color: var(--color-green);
 }
+
+/* section {
+    border: 2px dashed green;
+} */
 
 [class^="row"] {
     border: 2px dashed black;
@@ -82,4 +91,21 @@ section {
 
 .profile-name {
     font-size: 0.9rem;
+}
+
+/*********************** section Learn At Your Own Pace ***********************/
+
+.back-hero-cloud {
+    height: 90%;
+    z-index: -1;
+    top: 0;
+    left: 80px;
+    transform: translate(20px, 100px);
+}
+
+.back-hero-shape {
+    z-index: -1;
+    top: 55%;
+    right: 20%;
+
 }
