@@ -98,9 +98,8 @@ ul li i {
 .back-hero-cloud {
     height: 90%;
     z-index: -1;
-    top: 0;
-    left: 80px;
-    transform: translate(20px, 100px);
+    top: 100px;
+    left: 100px;
 }
 
 .back-hero-shape {
@@ -108,4 +107,27 @@ ul li i {
     top: 55%;
     right: 20%;
 
+}
+
+/*************************** Learn on your mobile anytime ! ***************************/
+
+.back-home-cloud {
+    height: 90%;
+    z-index: -1;
+    top: 90px;
+    left: 50px;
+}
+
+.back-home-shape {
+    z-index: -1;
+    top: 57%;
+    right: 12%;
+
+}
+
+.back-home-line {
+    z-index: -1;
+    top: 45%;
+    left: 0;
+    transform: translate(-30px);
 }
