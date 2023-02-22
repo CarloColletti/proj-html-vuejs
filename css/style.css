@@ -26,9 +26,9 @@ ul li i {
     color: var(--color-green);
 }
 
-/* section {
-    border: 2px dashed green;
-} */
+[class^="ddd"] {
+    border: 2px dashed black;
+}
 
 [class^="row"] {
     border: 2px dashed black;
@@ -52,6 +52,11 @@ ul li i {
     background-color: var(--color-grey-yellow);
 }
 
+.bg-personal-green {
+    background-color: var(--color-green);
+    color: var(--color-white);
+}
+
 /*********** color ***********/
 .p-color-green {
     color: var(--color-green);
@@ -59,6 +64,10 @@ ul li i {
 
 .p-color-purple {
     color: var(--color-purple);
+}
+
+.p-color-light-dark {
+    color: var(--color-dark-light);
 }
 
 
@@ -74,6 +83,13 @@ ul li i {
 /******************* section build your dream today  *******************/
 
 /********** section cosnstruct a stunning career perspective **********/
+.home-cloud {
+    height: 70%;
+    z-index: -1;
+    top: 100px;
+    left: -35px;
+}
+
 
 /********************* section Lastest Featured Courses *********************/
 /* badge prezzo */
