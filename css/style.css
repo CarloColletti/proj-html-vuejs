@@ -112,6 +112,16 @@ ul li i {
     right: 0;
 }
 
+.bt-active:hover {
+    background-color: var(--color-purple);
+}
+
+
+.active-square:hover {
+    background-color: var(--color-white);
+    border-left: 2px solid var(--color-green);
+}
+
 
 /******************* section build your dream today  *******************/
 
