@@ -17,14 +17,15 @@ ul li {
     list-style: none;
 }
 
-/*************************************** debug ***************************************/
-[class^="col"] {
-    border: 2px dashed red;
-}
-
 ul li i {
     color: var(--color-green);
 }
+
+/*************************************** debug ***************************************/
+/* [class^="col"] {
+    border: 2px dashed red;
+}
+
 
 [class^="ddd"] {
     border: 2px dashed black;
@@ -32,16 +33,12 @@ ul li i {
 
 [class^="row"] {
     border: 2px dashed black;
-}
+} */
 
-/********************************** background and colors general  **********************************/
+/********************************** background - colors - button, general  **********************************/
 /******** backgroun ********/
 .bg-personal-grey {
     background-color: var(--color-grey);
-}
-
-.bg-personal-grey-dark {
-    background-color: var(--color-grey-dark);
 }
 
 .bg-personal-grey-light {
@@ -51,6 +48,20 @@ ul li i {
 .bg-personal-grey-yellow {
     background-color: var(--color-grey-yellow);
 }
+
+.bg-personal-white {
+    background-color: var(--color-white);
+}
+
+.bg-personal-baige {
+    background-color: var(--color-baige);
+}
+
+.bg-personal-grey-dark {
+    background-color: var(--color-grey-dark);
+}
+
+
 
 .bg-personal-green {
     background-color: var(--color-green);
@@ -70,7 +81,19 @@ ul li i {
     color: var(--color-dark-light);
 }
 
+/*********** buttons  ***********/
+.btn-per-green {
+    background-color: var(--color-green);
+    color: var(--color-white);
+}
 
+
+/* hover  */
+.hov-green:hover {
+    width: 100%;
+    /* background-color:; */
+    color: var(--color-green);
+}
 
 
 
@@ -78,6 +101,11 @@ ul li i {
 
 
 /******************* section complete your dream  *******************/
+.tiny-menu {
+    background-color: var(--color-white);
+    top: 50px;
+    right: 0;
+}
 
 
 /******************* section build your dream today  *******************/
@@ -115,6 +143,12 @@ ul li i {
 .profile-name {
     font-size: 0.9rem;
 }
+
+.bg-personal-white-active:hover {
+    background-color: var(--color-white);
+    cursor: pointer;
+}
+
 
 /*********************** section Learn At Your Own Pace ***********************/
 
@@ -180,8 +214,8 @@ ul li i {
     height: 15px;
 }
 
-.height {
-    height: 10px;
+.hh {
+    height: 100%;
 }
 
 
