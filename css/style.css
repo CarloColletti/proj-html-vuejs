@@ -167,3 +167,19 @@ ul li i {
 .height {
     height: 10px;
 }
+
+
+/************************** sectio0n start today **************************/
+.pretty-01 {
+    width: 12%;
+    height: 12%;
+    top: 130px;
+    left: 30px;
+}
+
+.pretty-02 {
+    width: 12%;
+    bottom: 0;
+    right: 0;
+
+}
